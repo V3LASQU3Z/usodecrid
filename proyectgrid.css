@@ -1,0 +1,30 @@
+.testimonio {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 1em;
+    grid-template-rows: minmax(10px auto);
+    padding: 20px;
+}
+
+.testimonio div:hover {
+    background: #732F17;
+}
+
+.fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 2em;
+    grid-template-rows: minmax(10px auto);
+    padding: 10px;
+}
+
+.fotos div {
+    background-color: #732F17;
+    color: rgb(234, 197, 32);
+    padding: 0.5em;
+    font-size: 10px;
+}
+
+.fotos div:hover {
+    border: 2px solid #D9AC84;
+}
